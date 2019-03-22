@@ -26,7 +26,6 @@ int main()
     printf("\nEl numero es: %d\nEl numero1 es: %d\nLa letra es: %c\nY la suma de los numeros es: %d\nLa palabra es:%s\n", numero,numero1,letra,suma,palabra);
 
 
-
     system("pause");//*sirve para que el ejecutable que se encuentra en bin se pause*//
 
 
