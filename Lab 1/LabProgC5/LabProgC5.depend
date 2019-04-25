@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1556204225 source:c:\users\alumno\desktop\labprogc5\biblioteca.c
+	"Biblioteca.h"
+	"Biblioteca.h"
+	<string.h>
+
+1556199739 source:c:\users\alumno\desktop\labprogc5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Biblioteca.h"
+	<string.h>
+
+1556204225 c:\users\alumno\desktop\labprogc5\biblioteca.h
+
