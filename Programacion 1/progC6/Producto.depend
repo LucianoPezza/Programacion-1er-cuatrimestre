@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1556807483 source:c:\users\alumno\desktop\producto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Producto.h"
+
+1556807483 c:\users\alumno\desktop\producto\producto.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1556809105 source:c:\users\alumno\desktop\producto\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Producto.h"
+
+1556888015 source:c:\users\alumno\downloads\programacion-1er-cuatrimestre-master\lab 1\labc6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Producto.h"
+
+1556892889 c:\users\alumno\downloads\programacion-1er-cuatrimestre-master\lab 1\labc6\producto.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1556887098 source:c:\users\alumno\downloads\programacion-1er-cuatrimestre-master\lab 1\labc6\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Producto.h"
+
