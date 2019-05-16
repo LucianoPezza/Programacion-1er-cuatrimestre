@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1558012369 source:c:\users\alumno\desktop\parcialproglab\main.c
+	<stdio.h>
+	<stdlib.h>
+	"peliculas.h"
+
+1558012839 c:\users\alumno\desktop\parcialproglab\peliculas.h
+
+1558013611 source:c:\users\alumno\desktop\parcialproglab\peliculas.c
+	<stdio.h>
+	<string.h>
+	"peliculas.h"
+	"validaciones.h"
+
+1558009814 source:c:\users\alumno\desktop\parcialproglab\validaciones.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"validaciones.h"
+
+1558009731 c:\users\alumno\desktop\parcialproglab\validaciones.h
+
