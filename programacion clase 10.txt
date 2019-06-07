@@ -1,0 +1,37 @@
+1)int lista[5];			 2) int* lista;ll(*)
+
+
+	pila
+lista ( 1 )0x40
+      ( 2 )0x44                                                     monton                                
+      ( 5 )0x48			pila		                     ( 1 )0x90                              
+      ( 4 )0x52		   lista[ 0x90 ]0x40			     ( 2 )0x94						             	
+      ( 3 )0x56		        4BYTES          		     ( 3 )0x98
+       20BYTES    	 					     ( 5 )0x102
+								     ( 4 )0x106
+
+
+
+3) int*lista[5];
+   int*valor;ll(*)
+
+	pila
+lista (0x90)0x40			monton
+      (0x440)0x44			(1)0x90
+      (0x108)0x48			
+      (0x10)0x52
+      (0x901)0x56	
+
+Pila: La pila es totalmente estatica por lo tanto esta siempre tendra un array de 5. 
+Monton: Este al contrario que la pila es dinamico y podes gracias a un malloc o realloc. Sus desventajas serian: Mientras mas grande sea lo programado mas recuersos pide este segmento de memoria. Y si quiero ordenar mi array, en ves de ordenar mis datos terminaria ordenando las direcciones de memoria del array. Si esta en tiempo de ejecucion no puedo modificar el array. 
+Ya que no se puede modificar lo que esta en la pila (el array de 5) Utliziaremos el doble puntero. Las ventajas es que ahora el array tiene direcciones de memoria, por lo tanto es dinamico.
+
+4) int ** lista;
+int * valor;
+
+	pila
+lista  (0x90)0x40		Monton
+				(0x1)0x90
+				(0x5)0x94
+				(0x30)0x102
+				(0x04)0x106
