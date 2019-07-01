@@ -1,0 +1,334 @@
+# depslib dependency file v1.0
+1557413792 source:d:\luciano sinisterra\parciallab1\funcionesget.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1557415190 source:d:\luciano sinisterra\parciallab1\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1557413602 d:\luciano sinisterra\parciallab1\menu.h
+
+1557422166 source:d:\luciano sinisterra\parciallab1\actoresfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"actoresFunciones.h"
+
+1557421874 source:d:\luciano sinisterra\parciallab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"menu.h"
+	"funcionesGet.h"
+
+1557421500 source:d:\luciano sinisterra\parciallab1\peliculasfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"peliculasFunciones.h"
+	"actoresFunciones.h"
+
+1557416007 d:\luciano sinisterra\parciallab1\actoresfunciones.h
+
+1557421160 d:\luciano sinisterra\parciallab1\peliculasfunciones.h
+	"actoresFunciones.h"
+
+1557418552 d:\luciano sinisterra\parciallab1\funcionesget.h
+
+1557973532 source:e:\usuarios\escritorio\parcial 1\recursosabm-master\bibliotecasutiles\parciallab1\actoresfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+
+1557973532 e:\usuarios\escritorio\parcial 1\recursosabm-master\bibliotecasutiles\parciallab1\actoresfunciones.h
+
+1557974676 source:e:\usuarios\escritorio\parcial 1\recursosabm-master\bibliotecasutiles\parciallab1\funcionesget.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+
+1557973860 source:e:\usuarios\escritorio\parcial 1\recursosabm-master\bibliotecasutiles\parciallab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"menu.h"
+	"funcionesGet.h"
+	"string.h"
+	"reportes.h"
+
+1557973191 e:\usuarios\escritorio\parcial 1\recursosabm-master\bibliotecasutiles\parciallab1\peliculasfunciones.h
+
+1557869823 e:\usuarios\escritorio\parcial 1\recursosabm-master\bibliotecasutiles\parciallab1\menu.h
+
+1557974946 e:\usuarios\escritorio\parcial 1\recursosabm-master\bibliotecasutiles\parciallab1\funcionesget.h
+
+1557942386 source:e:\usuarios\escritorio\parcial 1\recursosabm-master\bibliotecasutiles\parciallab1\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"funcionesGet.h"
+
+1557975162 source:e:\usuarios\escritorio\parcial 1\recursosabm-master\bibliotecasutiles\parciallab1\peliculasfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"funcionesGet.h"
+
+1557973532 e:\usuarios\escritorio\parcial 1\recursosabm-master\bibliotecasutiles\parciallab1\reportes.h
+
+1557973728 source:e:\usuarios\escritorio\parcial 1\recursosabm-master\bibliotecasutiles\parciallab1\reportes.c
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"string.h"
+	<stdio.h>
+	<stdlib.h>
+
+1558024822 source:d:\plls\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\actoresfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+
+1558018448 d:\plls\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\actoresfunciones.h
+
+1558020466 d:\plls\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\peliculasfunciones.h
+
+1558018448 source:d:\plls\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\funcionesget.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+
+1558017485 source:d:\plls\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"menu.h"
+	"funcionesGet.h"
+	"string.h"
+	"reportes.h"
+
+1558027357 d:\plls\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\menu.h
+
+1558018448 d:\plls\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\funcionesget.h
+
+1558027736 d:\plls\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\reportes.h
+
+1558027072 source:d:\plls\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"funcionesGet.h"
+
+1558026374 source:d:\plls\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\peliculasfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"funcionesGet.h"
+
+1558027853 source:d:\plls\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\reportes.c
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"string.h"
+	<stdio.h>
+	<stdlib.h>
+
+1561866211 source:e:\usuarios\escritorio\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\actoresfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+
+1558017641 e:\usuarios\escritorio\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\actoresfunciones.h
+
+1561866211 e:\usuarios\escritorio\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\peliculasfunciones.h
+
+1558017641 source:e:\usuarios\escritorio\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\funcionesget.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+
+1561939917 source:e:\usuarios\escritorio\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"menu.h"
+	"funcionesGet.h"
+	"string.h"
+	"reportes.h"
+
+1558017641 e:\usuarios\escritorio\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\menu.h
+
+1558017641 e:\usuarios\escritorio\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\funcionesget.h
+
+1561939917 e:\usuarios\escritorio\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\reportes.h
+
+1561866501 source:e:\usuarios\escritorio\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"funcionesGet.h"
+
+1561924914 source:e:\usuarios\escritorio\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\peliculasfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"funcionesGet.h"
+
+1561939628 source:e:\usuarios\escritorio\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\reportes.c
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"string.h"
+	<stdio.h>
+	<stdlib.h>
+
+1561992194 source:c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\actoresfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+
+1561931474 c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\actoresfunciones.h
+
+1561931474 c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\peliculasfunciones.h
+
+1561931474 source:c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\funcionesget.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+
+1561994033 source:c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"menu.h"
+	"funcionesGet.h"
+	"string.h"
+	"reportes.h"
+
+1561931474 c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\menu.h
+
+1561931474 c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\funcionesget.h
+
+1561931474 c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\reportes.h
+
+1561931474 source:c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"funcionesGet.h"
+
+1561931474 source:c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\peliculasfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"funcionesGet.h"
+
+1561994006 source:c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parciallab1\reportes.c
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"string.h"
+	<stdio.h>
+	<stdlib.h>
+
+1561992194 source:c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parcialarreglado\actoresfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+
+1561931474 c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parcialarreglado\actoresfunciones.h
+
+1561931474 c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parcialarreglado\peliculasfunciones.h
+
+1561931474 source:c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parcialarreglado\funcionesget.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+
+1561994033 source:c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parcialarreglado\main.c
+	<stdio.h>
+	<stdlib.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"menu.h"
+	"funcionesGet.h"
+	"string.h"
+	"reportes.h"
+
+1561931474 c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parcialarreglado\menu.h
+
+1561931474 c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parcialarreglado\funcionesget.h
+
+1561931474 c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parcialarreglado\reportes.h
+
+1561931474 source:c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parcialarreglado\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"funcionesGet.h"
+
+1561931474 source:c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parcialarreglado\peliculasfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"funcionesGet.h"
+
+1561994006 source:c:\users\alumno\downloads\parciallab-master\recursosabm-master\bibliotecasutiles\parcialarreglado\reportes.c
+	"actoresFunciones.h"
+	"peliculasFunciones.h"
+	"string.h"
+	<stdio.h>
+	<stdlib.h>
+
