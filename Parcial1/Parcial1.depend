@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1562235245 source:c:\users\luciano\desktop\parcial1\actores.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Actores.h"
+	"Peliculas.h"
+
+1562235245 c:\users\luciano\desktop\parcial1\actores.h
+
+1562235245 c:\users\luciano\desktop\parcial1\peliculas.h
+
+1562235245 source:c:\users\luciano\desktop\parcial1\filtros.c
+	"Actores.h"
+	"Peliculas.h"
+	"string.h"
+	<stdio.h>
+	<stdlib.h>
+
+1562236195 source:c:\users\luciano\desktop\parcial1\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"Menu.h"
+	"Validaciones.h"
+
+1562235245 c:\users\luciano\desktop\parcial1\menu.h
+
+1562235245 c:\users\luciano\desktop\parcial1\validaciones.h
+
+1562235245 source:c:\users\luciano\desktop\parcial1\peliculas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Actores.h"
+	"Peliculas.h"
+	"Validaciones.h"
+	"Menu.h"
+
+1562235245 source:c:\users\luciano\desktop\parcial1\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"Actores.h"
+	"Peliculas.h"
+
+1562235643 source:c:\users\luciano\desktop\parcial1\main.c
+	<stdio.h>
+	"string.h"
+	<stdlib.h>
+	"Actores.h"
+	"Peliculas.h"
+	"Menu.h"
+	"Validaciones.h"
+	"Filtros.h"
+
+1562235245 c:\users\luciano\desktop\parcial1\filtros.h
+
