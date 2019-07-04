@@ -11,4 +11,6 @@ int pedirNacionalidad();
 
 int pedirOrden();
 
+int mostrar2();
+
 #endif // MENU_H_INCLUDED

@@ -7,7 +7,6 @@
 #include "Validaciones.h"
 #include "Menu.h"
 
-
 int inicializarPeliculas(ePelicula listado[], int len)
 {
     int i;
@@ -25,17 +24,49 @@ int inicializarPeliculas(ePelicula listado[], int len)
 int altaPeliculas(ePelicula listado[], eActor listadoActores[], int len)
 {
     int id;
-    int codigoPelicula;
+    int idActor;
+   /* int codigoPelicula;
     char titulo[51];
     int fechaDeEstreno;
     char genero[21];
-    int idActor;
-    int generoNumero;
+    int estadoAC
+    int generoNumero;*/
+    char nombreDeActor[50];
+    char nacionalidad[50];
     int idExiste;
+    int edadActor;
+    int estadoActores;
 
-    id = buscarLibrePelicula(listado, len);
 
-    codigoPelicula = getInt("Ingrese codigo pelicula\n");
+
+    id = idAutoIncremetal(listado, len);
+
+    idActor= getInt("Ingrese el id del nuevo actor: ");
+    while(idActor<0 || idActor>1000)
+    {
+        idActor= getInt("Error. Reingrese el id del nuevo actor(Entre 0 y 1000): ");
+    }
+
+    getString(" Ingrese nombre: \n", nombreDeActor);
+
+    while(esNumerico(nombreDeActor)==1)
+    {
+        getString("Error. Tiene que ser solo letras, ingrese un nuevo titulo: \n", nombreDeActor);
+    }
+
+    getString(" Ingrese nacionalidad: \n", nacionalidad);
+
+    while(esNumerico(nombreDeActor)==1)
+    {
+        getString("Error. Tiene que ser solo letras, ingrese un nuevo titulo: ",nombreDeActor);
+    }
+
+    edadActor = getInt("Ingrese la edad del actor: ");
+    while(edadActor<10 || edadActor>90)
+    {
+        edadActor= getInt("Ingrese una edad valida (Entre 10 y 90 anios)");
+    }
+    /*codigoPelicula = getInt("Ingrese codigo pelicula\n");
 
     while(codigoPelicula < 100 || codigoPelicula > 999)
     {
@@ -99,7 +130,7 @@ int altaPeliculas(ePelicula listado[], eActor listadoActores[], int len)
     mostrarListadoActores(listadoActores, len);
     idActor = getInt("id de actor principal\n");
     idExiste = buscarActorPorID(listadoActores, len, idActor);
-
+*/
     while(idExiste == -1)
     {
         idActor = getInt("Reingrese una ID de Actor valida\n");
@@ -112,12 +143,16 @@ int altaPeliculas(ePelicula listado[], eActor listadoActores[], int len)
         if(listado[i].estado == 1)
         {
             listado[i].id = id;
-            listado[i].codigoPelicula= codigoPelicula;
-            strcpy(listado[i].titulo, titulo);
-            listado[i].fechaDeEstreno= fechaDeEstreno;
-            strcpy(listado[i].genero, genero);
-            listado[i].idActor= idActor;
+            //listado[i].codigoPelicula= codigoPelicula;
+            //strcpy(listado[i].titulo, titulo);
+            //listado[i].fechaDeEstreno= fechaDeEstreno;
+            //strcpy(listado[i].genero, genero);
+            listadoActores[i].edad=edadActor;
+            strcpy(listadoActores[i].nacionalidad, nacionalidad);
+            strcpy(listadoActores[i].nombreActor, nombreDeActor);
+            listadoActores[i].id=idActor;
             listado[i].estado = 0;
+            listadoActores[i].estado= 0;
             return 0;
         }
     }
@@ -160,14 +195,27 @@ int buscarPeliPorID(ePelicula listado[], int len,int id)
 int bajaPelicula(ePelicula listado[], int len, int id)
 {
 
-    int idAborrar = buscarPeliPorID(listado, len, id);
-    if(idAborrar == -1)
-    {
-        return -1;
-    }
-    listado[idAborrar].estado = 1;
+    int i;
+    int foundIT=0;
 
-    return 0;
+     id = getInt("\nIngrese ID de la pelicula para eliminar: ");
+
+    for(i=0; i<len; i++)
+    {
+        if(id == listado[i].id)
+           {
+            listado[i].estado=1;
+            foundIT=1;
+              printf("\nEl empleado fue eliminado exitosamente!!!\n");
+            break;
+           }
+    }
+    if(foundIT == 0)
+        {
+            printf("\nId Inexistente");
+        }
+
+        return 0;
 }
 
 
@@ -200,7 +248,7 @@ int harcodePeliculas(ePelicula listado[], int len)
 }
 
 
-int buscarLibrePelicula(ePelicula listado[], int len)
+int idAutoIncremetal(ePelicula listado[], int len)
 {
     int i;
     int id;

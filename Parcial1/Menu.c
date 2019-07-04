@@ -6,7 +6,7 @@
 int pedirMenu()
 {
     int opcion;
-    printf("Parcial 1 ABM.\n\n");
+    printf("Parcial de laboratorio de computacion 1.\n\n\n");
     opcion = getInt(" 1.Alta  \n 2.Baja(de pelis)\n 3.Modificacion(de pelis)\n 4.Mostrar(con filtros)\n 5.Exit\n");
     return opcion;
 
@@ -14,7 +14,6 @@ int pedirMenu()
 int pedirPelicula()
 {
     int opcionAmodificar;
-    printf("%s","         Modificacion          \n");
     printf("%10s - %10s - %10s \n", "1.Titulo", "2.Anio de estreno", "3.Actor");
     opcionAmodificar = getInt("\nIntroduzca una opcion a modificar: \n");
 
@@ -29,12 +28,21 @@ int pedirPelicula()
 int mostrar()
 {
     int optionShow;
-    printf("%s","                   Filtros                 \n");
     printf("%s %s %s %s %s %s %s %s %s %s %s %s \n"," 1.Mostrar las Peliculas sin actores\n", "2.Mostrar las Peliculas sin actores\n", "3.Mostrar peliculas por anio de estreno\n", "4.Mostrar Actores por pais de origen\n", "5.Mostrar todas las peliculas con genero y actor. \n", "6.Mostrar las peliculas cuya nacionalidad del actor sea de EEUU. \n","7.Mostrar peliculas cuya nacionalidad del actor ingresada por consola. \n","8.Mostrar peliculas agrupadas en su genero. \n", "9.Mostrar la cantidad de peliculas que hay en cada genero. \n", "10.Mostrar actores que mas peliculas protagonizaron. \n","11.Mostrar generos con menos peliculas.\n", "12.Mostrar Actores que no trabajaron en ninguna pelicula.\n");
     optionShow = getInt("");
 
     return optionShow;
 }
+
+int mostrar2()
+{
+    int optionShow;
+    printf("%s\n","1-Mostrar pelicuas y actores\n2-Solo actores con edad organizada de mayor a menor");
+    optionShow = getInt("");
+
+    return optionShow;
+}
+
 
 int pedirNacionalidad()
 {
@@ -58,3 +66,4 @@ int pedirOrden()
 
     return opcion;
 }
+

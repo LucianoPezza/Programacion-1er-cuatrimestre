@@ -4,6 +4,7 @@
 typedef struct
 {
     int id;
+    int edad;
     char nombreActor[51];
     char nacionalidad[51];
     int estado;

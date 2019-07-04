@@ -19,20 +19,63 @@ int inicializarActores(eActor listado[], int len)
     return 0;
 
 }
+int modificarActor(eActor listadoActores[], int len, int id, int option)
+{
+    char nombreActor[51];
+    int edadActor;
+    int idActor;
+    int idExiste;
+    int posAeditar= buscarActorPorID(listadoActores,len,idActor);
+    if(posAeditar == -1)
+    {
+        return -1;
+    }
+    switch(option)
+    {
+    case 1:
+        getString(" Ingrese nuevo nombre \n", nombreActor);
 
+        while(esNumerico(nombreActor)==1)
+        {
+            getString(" Ingrese un nombre valido: \n", nombreActor);
+        }
+        strcpy(listadoActores[posAeditar].nombreActor, nombreActor);
+        break;
+    case 2:
+        edadActor = getInt("Ingrese Nueva edad: \n");
+        while(edadActor< 10|| edadActor > 90)
+        {
+            edadActor = getInt("Reingrese una edad valida (entra 10 y 90) \n");
+        }
+
+        listadoActores[posAeditar].edad = edadActor;
+        break;
+    case 3:
+        mostrarListadoActores(listadoActores, len);
+        idActor = getInt("ID del actor\n");
+        idExiste = buscarActorPorID(listadoActores, len, idActor);
+        while(idExiste == -1)
+        {
+            idActor = getInt("Reingrese una ID de Actor valida\n");
+            idExiste = buscarActorPorID(listadoActores, len, idActor);;
+        }
+        listadoActores[posAeditar].id = idActor;
+        break;
+    }
+    return 0;
+}
 
 
 int mostrarListadoActores(eActor listado[], int len)
 {
     int i;
-    printf("%s\t - %s\t - %s\t \n", "ID", "nombre y apellido", "Nacionalidad");
+    printf("%s  %10s  %20s %5s", "ID", "Nombre", "Nacionalidad", "Edad");
 
     for(i = 0; i < len; i++)
     {
         if(listado[i].estado == 0)
         {
-            printf("%d\t  %s\t  %s\t \n", listado[i].id, listado[i].nombreActor, listado[i].nacionalidad);
-
+            printf("\n%d   %10s   %15s  %5d  \n", listado[i].id, listado[i].nombreActor, listado[i].nacionalidad, listado[i].edad);
         }
 
     }
@@ -73,8 +116,9 @@ int harcodeActores(eActor listado[], int len)
     int i;
 
     int id[5]= {1, 2, 3, 4, 5};
-    char nombreActor[5][50]= {"Julieta roberto", "Richar darin", "Nicole Kidman", "Tita merello", "Natalia Oreiro"};
+    char nombreActor[5][50]= {"Julieta robert", "Richar darin", "Nicole Kidman", "Tita merello", "Natalia Oreiro"};
     char nacionalidad[5][13]= {"EEUU", "Argentina", "Australiana ", "Argentina", "Uruguay"};
+    int edad[5]={33 , 77, 11 , 18, 33};
     int estado[5]= { 0, 0, 0, 0};
 
     for(i=0; i<5; i++)
@@ -83,6 +127,7 @@ int harcodeActores(eActor listado[], int len)
         strcpy(listado[i].nombreActor,nombreActor[i]);
         strcpy(listado[i].nacionalidad,nacionalidad[i]);
         listado[i].estado = estado[i];
+        listado[i].edad=edad[i];
 
     }
     return -1;

@@ -28,7 +28,7 @@ int mostrarPeliculasConActores(ePelicula listadoPeliculas[], eActor listadoActor
 {
     int i;
     int posActor;
-    printf("%s\t %s\t %15s  %s\t\t %s\t\t %15s \n", "ID", "Codigo", "titulo", "Fecha", "Genero", "Actor");
+    printf("%s\t %s\t %s %15s\t\t %s\t\t %15s \n", "ID", "Codigo", "Fecha", "Titulo", "Actor", "Genero");
 
 
     for(i = 0; i < len; i++)
@@ -39,7 +39,7 @@ int mostrarPeliculasConActores(ePelicula listadoPeliculas[], eActor listadoActor
             posActor = buscarActorPorID(listadoActores, len, listadoPeliculas[i].idActor);
 
 
-            printf("%d\t %d\t %15s %d\t\t %s %30s\t \n", listadoPeliculas[i].id, listadoPeliculas[i].codigoPelicula, listadoPeliculas[i].titulo, listadoPeliculas[i].fechaDeEstreno, listadoPeliculas[i].genero, listadoActores[posActor].nombreActor);
+            printf("%d\t %d\t %d %15s\t\t %s %15s\t \n", listadoPeliculas[i].id, listadoPeliculas[i].codigoPelicula, listadoPeliculas[i].fechaDeEstreno,listadoPeliculas[i].titulo,listadoActores[posActor].nombreActor, listadoPeliculas[i].genero);
 
         }
 
@@ -160,6 +160,7 @@ int participaciones(ePelicula listadoPel[], int len, int idAcontar)
     return participaciones;
 
 }
+
 
 void actoresMasParticipativos(ePelicula listadoPel[], eActor listadoAct[], int len)
 {
@@ -317,3 +318,32 @@ void peliculasAgrupadasPorActor(ePelicula listadoPel[], eActor listadoAct[], int
     printf("\n");
 
 }
+int actoresConEdadesOrdenadas(eActor listadoActores[], int len)
+{
+    int i;
+    int j;
+    eActor aux;
+
+    for(i=0; i<len-1; i++)
+    {
+        for(j=i+1; j<len; j++)
+        {
+            if(listadoActores[i].estado==0 && listadoActores[j].estado==0)
+            {
+                if(stricmp(listadoActores[i].edad, listadoActores[j].edad)>0)
+                {
+                    aux=listadoActores[i];
+                    listadoActores[i] = listadoActores[j];
+                    listadoActores[j] = aux;
+                }
+
+
+            }
+        }
+
+    }
+
+
+}
+
+

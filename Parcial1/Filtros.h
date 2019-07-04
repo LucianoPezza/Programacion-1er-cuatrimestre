@@ -27,4 +27,7 @@ void actoresAntesDeFecha(ePelicula listadoPel[], eActor listadoAct[], int len, i
 
 void peliculasAgrupadasPorActor(ePelicula listadoPel[], eActor listadoAct[], int len, int idDeActor);
 
+int actoresConEdadesOrdenadas(eActor [], int len);
+
+
 #endif // FILTROS_H_INCLUDED

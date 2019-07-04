@@ -58,3 +58,62 @@
 
 1562235245 c:\users\luciano\desktop\parcial1\filtros.h
 
+1562248492 source:c:\users\alumno\desktop\parcial1\main.c
+	<stdio.h>
+	"string.h"
+	<stdlib.h>
+	"Actores.h"
+	"Peliculas.h"
+	"Menu.h"
+	"Validaciones.h"
+	"Filtros.h"
+
+1562245735 c:\users\alumno\desktop\parcial1\actores.h
+
+1562243020 c:\users\alumno\desktop\parcial1\peliculas.h
+
+1562244831 c:\users\alumno\desktop\parcial1\menu.h
+
+1562237074 c:\users\alumno\desktop\parcial1\validaciones.h
+
+1562248986 c:\users\alumno\desktop\parcial1\filtros.h
+
+1562248521 source:c:\users\alumno\desktop\parcial1\actores.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Actores.h"
+	"Peliculas.h"
+
+1562248960 source:c:\users\alumno\desktop\parcial1\filtros.c
+	"Actores.h"
+	"Peliculas.h"
+	"string.h"
+	<stdio.h>
+	<stdlib.h>
+
+1562246358 source:c:\users\alumno\desktop\parcial1\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"Menu.h"
+	"Validaciones.h"
+
+1562246939 source:c:\users\alumno\desktop\parcial1\peliculas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Actores.h"
+	"Peliculas.h"
+	"Validaciones.h"
+	"Menu.h"
+
+1562237074 source:c:\users\alumno\desktop\parcial1\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"Actores.h"
+	"Peliculas.h"
+

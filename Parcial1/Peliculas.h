@@ -24,7 +24,7 @@ int bajaPelicula(ePelicula[], int len, int id);
 
 int harcodePeliculas(ePelicula[], int len);
 
-int buscarLibrePelicula(ePelicula[], int len);
+int idAutoIncremetal(ePelicula[], int len);
 
 int modificacionPelicula(ePelicula[], eActor[], int len, int id, int option);
 
