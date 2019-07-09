@@ -1,0 +1,159 @@
+# depslib dependency file v1.0
+1562619324 source:/home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/actorFunctions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+
+1562609372 /home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/actorFunctions.h
+
+1562618017 /home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/movieFunctions.h
+
+1562616131 /home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/validations.h
+
+1562616218 source:/home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+
+1562442192 source:/home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+	"controller.h"
+
+1562442192 /home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/controller.h
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+
+1562617454 source:/home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/movieFunctions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+	"controller.h"
+
+1562617903 source:/home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/validations.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validations.h"
+
+1562617428 source:/home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/filters.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+	"controller.h"
+	"menu.h"
+	"filters.h"
+
+1562618021 /home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/menu.h
+
+1562617346 /home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/filters.h
+
+1562617447 source:/home/ale/Documentos/programacion/Programacion1-Laboratorio1/Parcial/primer parcial/rec primer parcial/menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+	"controller.h"
+	"menu.h"
+	"filters.h"
+
+1562643166 source:c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\actorfunctions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+
+1562643166 c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\actorfunctions.h
+
+1562643167 c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\moviefunctions.h
+
+1562643167 c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\validations.h
+
+1562643167 source:c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+	"controller.h"
+
+1562644275 c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\controller.h
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+
+1562643167 source:c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\moviefunctions.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+	"controller.h"
+	"menu.h"
+
+1562643167 c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\menu.h
+
+1562644133 source:c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\validations.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validations.h"
+
+1562643167 source:c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\filters.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+	"controller.h"
+	"menu.h"
+	"filters.h"
+
+1562643167 c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\filters.h
+
+1562643167 source:c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+	"controller.h"
+	"menu.h"
+	"filters.h"
+
+1562644574 source:c:\users\luciano\desktop\programacion1-laboratorio1-master\parcial\primer parcial\rec primer parcial\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"actorFunctions.h"
+	"movieFunctions.h"
+	"validations.h"
+	"menu.h"
+
