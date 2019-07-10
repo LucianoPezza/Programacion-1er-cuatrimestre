@@ -1,0 +1,193 @@
+# depslib dependency file v1.0
+1561602767 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"controller.h"
+	"menu.h"
+
+1561601604 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561591335 e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\linkedlist.h
+
+1557328529 e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\menu.h
+
+1561595901 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1561603210 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"empleado.h"
+	"controller.h"
+	"parser.h"
+
+1561601952 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\empleado.c
+	"empleado.h"
+	"stdio.h"
+	<stdlib.h>
+	<string.h>
+
+1561601840 e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\empleado.h
+
+1561602168 source:e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"empleado.h"
+
+1561601376 e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\controller.h
+
+1561599745 e:\usuarios\escritorio\utn1cuatri\practicas\parcialdos\parser.h
+
+1561643881 source:d:\ls\parcialdos-master\parcialdos\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"empleado.h"
+	"controller.h"
+	"parser.h"
+
+1561643448 d:\ls\parcialdos-master\parcialdos\linkedlist.h
+
+1561643827 d:\ls\parcialdos-master\parcialdos\empleado.h
+
+1561643827 d:\ls\parcialdos-master\parcialdos\controller.h
+
+1561636504 d:\ls\parcialdos-master\parcialdos\parser.h
+
+1561643827 source:d:\ls\parcialdos-master\parcialdos\empleado.c
+	"empleado.h"
+	"stdio.h"
+	<stdlib.h>
+	<string.h>
+
+1561643342 source:d:\ls\parcialdos-master\parcialdos\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561643827 source:d:\ls\parcialdos-master\parcialdos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"controller.h"
+	"menu.h"
+
+1561636504 d:\ls\parcialdos-master\parcialdos\menu.h
+
+1561638518 source:d:\ls\parcialdos-master\parcialdos\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"empleado.h"
+
+1561641631 source:d:\ls\parcialdos-master\parcialdos\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1561643942 source:e:\usuarios\escritorio\parcialdos-mastera\parcialdos\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"empleado.h"
+	"controller.h"
+	"parser.h"
+
+1561643942 e:\usuarios\escritorio\parcialdos-mastera\parcialdos\linkedlist.h
+
+1561643942 e:\usuarios\escritorio\parcialdos-mastera\parcialdos\empleado.h
+
+1561643942 e:\usuarios\escritorio\parcialdos-mastera\parcialdos\controller.h
+
+1561643942 e:\usuarios\escritorio\parcialdos-mastera\parcialdos\parser.h
+
+1561644193 source:e:\usuarios\escritorio\parcialdos-mastera\parcialdos\empleado.c
+	"empleado.h"
+	"stdio.h"
+	<stdlib.h>
+	<string.h>
+
+1561643942 source:e:\usuarios\escritorio\parcialdos-mastera\parcialdos\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1561643942 source:e:\usuarios\escritorio\parcialdos-mastera\parcialdos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"controller.h"
+	"menu.h"
+
+1561643942 e:\usuarios\escritorio\parcialdos-mastera\parcialdos\menu.h
+
+1561643942 source:e:\usuarios\escritorio\parcialdos-mastera\parcialdos\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1561643942 source:e:\usuarios\escritorio\parcialdos-mastera\parcialdos\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"empleado.h"
+
+1562766011 source:c:\users\alumno\desktop\parcialdos-master\parcialdos\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"empleado.h"
+	"controller.h"
+	"parser.h"
+
+1561644400 c:\users\alumno\desktop\parcialdos-master\parcialdos\linkedlist.h
+
+1562764154 c:\users\alumno\desktop\parcialdos-master\parcialdos\empleado.h
+
+1561644400 c:\users\alumno\desktop\parcialdos-master\parcialdos\controller.h
+
+1561644400 c:\users\alumno\desktop\parcialdos-master\parcialdos\parser.h
+
+1562765062 source:c:\users\alumno\desktop\parcialdos-master\parcialdos\empleado.c
+	"empleado.h"
+	"stdio.h"
+	<stdlib.h>
+	<string.h>
+
+1562765983 source:c:\users\alumno\desktop\parcialdos-master\parcialdos\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1562766056 source:c:\users\alumno\desktop\parcialdos-master\parcialdos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"controller.h"
+	"menu.h"
+
+1561644400 c:\users\alumno\desktop\parcialdos-master\parcialdos\menu.h
+
+1562765112 source:c:\users\alumno\desktop\parcialdos-master\parcialdos\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+
+1562766218 source:c:\users\alumno\desktop\parcialdos-master\parcialdos\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"empleado.h"
+
